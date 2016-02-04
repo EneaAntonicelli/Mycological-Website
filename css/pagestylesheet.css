@@ -1,0 +1,84 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+#page {
+	background-color:#FAFAFA;
+	font-family:;
+	font-size:16px;
+	height: 100%;
+
+}
+
+
+header {
+	height: 3em;	
+	width: 1200px;
+	margin:auto;
+}
+
+ul { 
+    list-style-type: none; /* remove the bullet points */
+    background-color: #6a4726; /*Add the background-color to <ul> instead of each <a> element if you want a full-width background color*/
+    overflow: hidden; /*The overflow is clipped, and the rest of the content will be invisible - similar to cropping the view area*/
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+	display:block; /*Displaying the links as block elements makes the whole link area clickable (not just the text), and it allows us to specify padding (and height, width, margins, etc. if you want)*/
+	padding:1em;
+	text-align: center;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 1.25em;
+	font-weight:100;
+	color: white;
+	text-decoration: none;
+}
+
+li a:hover {
+    background-color: #362513;
+}	
+
+
+#wrapper {
+	width: 1200px;
+	margin: auto;
+}
+.mainpageimage {
+	float:left;
+	width: 800px;
+}
+
+p {
+	margin-top: 2em;	
+}
+
+		
+
+footer {
+	clear: both;
+	z-index: 1;
+	bottom: 0px;
+	color: white;
+	height: 6em;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 1.25em;
+	width: 1200px;
+	margin:auto;
+	background-color: #6a4726;	
+	font-weight:100;
+}
+
+.copyright {
+	padding-left: 2em;
+	padding-top:1em;
+	line-height: 2em;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: .6em;
+	font-style: normal;
+	height: 6em;
+	font-weight: lighter;
+}
