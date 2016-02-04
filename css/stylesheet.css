@@ -44,8 +44,10 @@ header{
 
 .MushThumb:hover {
 	opacity: .6;
-	border: 1px solid #E1E0E0
+	outline: 0px solid white;
+	
 }
+
 img {
     vertical-align: top; /* This removes the small gap between the image and the MushThumb container. I am not sure how that gap is generated in the first place. */
 }
