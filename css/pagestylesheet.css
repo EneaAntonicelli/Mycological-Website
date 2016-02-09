@@ -49,11 +49,9 @@ li a:hover {
 .mainpageimage {
 	float:left;
 	width: 800px;
+	margin-right: 2em;
 }
 
-p {
-	margin-top: 2em;	
-}
 
 		
 
@@ -81,4 +79,9 @@ footer {
 	font-style: normal;
 	height: 6em;
 	font-weight: lighter;
+}
+
+#wrapper p {
+	padding: 1em 2em;  
+	margin: 2em;
 }
