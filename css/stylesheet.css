@@ -25,18 +25,18 @@ header{
 	-O-smoothing:antialiased;
 	
 }
-.header {
+header h1{
 	padding: 2%;
 }
 
-.wrapper {
+.mainContent {
 	width: 100%;
 	overflow-x: scroll;
-    white-space: nowrap;
-    background-color: #FAFAFA;
+ 	white-space: nowrap;
+  background-color: #FAFAFA;
 }
 
-.MushThumb {
+.mushThumb {
 	position: relative;
 	display: inline-block;
 	margin: 2em;
@@ -47,9 +47,9 @@ header{
 	
 }
 
-.MushThumb:hover {
+.mushThumb:hover {
 	opacity: .6;
-	outline: 0px solid white;
+	outline: 0 solid white;
 	-moz-transition: opacity 0.4s ease-in-out;
 	-webkit-transition: opacity 0.4s ease-in-out;
 	-ms-transition: opacity 0.4s ease-in-out;
@@ -60,7 +60,7 @@ img {
     vertical-align: top; /* This removes the small gap between the image and the MushThumb container. I am not sure how that gap is generated in the first place. */
 }
 
-.h2background {	
+.mushroomName {	
 		background-color: gray;
 		position: absolute;
 		width: 100%;
@@ -103,7 +103,7 @@ footer {
 }
 
 
-#aboutme {
+#aboutMe {
 	position: absolute;	
 	text-align: right;
 	vertical-align: middle;
@@ -113,7 +113,7 @@ footer {
 	
 }
 
-#aboutmelink {
+#aboutMeLink {
 	color: white;
 	height: 6em;
 	font-style: normal;
@@ -125,14 +125,14 @@ footer {
 	text-shadow: none;
 	font-weight: lighter;
 }
-#aboutmelink:hover {
+#aboutMeLink:hover {
 	text-shadow: 2px 2px #000000;
 	-moz-transition: text-shadow 0.2s ease-in-out;
 	-webkit-transition: text-shadow 0.2s ease-in-out;
 	-ms-transition: text-shadow 0.2s ease-in-out;
 	transition: text-shadow 0.2s;
 }
-.copyright {
+#copyright {
 	padding-left: 2em;
 	padding-top:1em;
 	line-height: 2em;
